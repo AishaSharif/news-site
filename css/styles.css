@@ -185,3 +185,136 @@ body{
   color: #aaa;
   padding-bottom: 2px;
 }
+
+/*
+ *FOOTER SECTION 
+ */
+ .my-footer {
+  padding-top: 1%;
+  text-align: center;
+  margin-left: -10%;
+  height: 100px;
+  margin-top: 5%;
+	background-color: rgba(0, 0, 0, 0.856);
+}
+.footer-social-icons {
+  color: #ccc;
+  margin-bottom: 5px;
+  padding-left: 35px;  
+}
+.footer-social-icons i{
+  padding-right: 15px;
+}
+.footer-list {
+  display: inline-block;
+  padding-left: 35px;
+  text-align: center;
+  color: #ddd
+}
+.footer-list a {
+  color: #ccc;
+}
+.footer-list a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-mini {
+  display: inline-block;
+  padding-right: 9px;
+  color: #ccc;
+  padding-left: 9px;
+  border-right: 1px solid #777;
+}
+.copyrights {
+  background-color: green;
+  width: 100%;
+  padding-bottom: 1%; 
+  padding-top: 1%;
+  color: #ddd;
+}
+/*
+ *******************
+ SINGLE ARTICLE PAGE 
+ *******************
+ */
+.article-text {
+  color: #222;
+  font-size: 1.8rem;
+  line-height: 1.7;
+  padding-top: 2%;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2%;
+}
+.article-title {
+  font-size: 4rem;
+  color: #000;
+  font-weight: 900;
+  letter-spacing: -1px; 
+}
+.article-author,
+.article-timestamp{
+  font-weight: 600;
+  color: #444;
+  font-size: 1.3rem;
+  padding-top: 3px;
+  padding-left: 1px;
+}
+.article-author {
+  padding-right: 1%;
+  border-right: 1px solid #cccc;
+}
+.article-timestamp{
+  padding-left: 1%;
+}
+.single--article--details {
+  margin-bottom: 1%;
+}
+.article-image-details{
+  box-shadow: 0px 0px 5px #ccc;
+}
+.article--image {
+  width: 100%;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.aricle-image-caption {
+  font-size: 1.5rem;
+  color: #555;
+  padding: 2%;
+}
+.article--subtitle{
+  color: #444;
+  font-size: 1.8rem;
+  line-height: 1.7;
+  padding-top: 2%;
+}
+.mid-article-subheader{
+  color: rgba(0, 0, 0, 0.747);
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: inline-block;
+  width: 100%;
+  margin-top: 2%;
+  margin-top: 1%;   
+  letter-spacing: -1px; 
+}
+.article-suggestions-title{
+  font-size: 2rem;
+  margin-top: 4%;
+}
+.article-suggestions-title::after{
+  width: 9%;
+  height: 2px;
+}
+/*
+ *SUGGESTION TABS 
+ */
+.article-suggestion-tabs {
+  width: 100%;
+}
+button.btn.btn-lg.article-tab {
+  border: 1px solid green;
+  background-color: #fff;
+  border-radius: 13px;
+  margin-right: 5px;
+}
