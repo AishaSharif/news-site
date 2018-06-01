@@ -4,26 +4,21 @@
     <?php wp_head(); ?>
   </head>
   <body>
-    <header class="site-header">
-    <div class="container">
-      <h1 class="school-logo-text float-left"><a href="<?php echo site_url() ?>"><strong>Fictional</strong> University</a></h1>
-      <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
-      <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
-      <div class="site-header__menu group">
-        <nav class="main-navigation">
-          <ul class="min-list group">
-            <li><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
-            <li><a href="#">Programs</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Campuses</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </nav>
-        <div class="site-header__util">
-          <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
-          <a href="#" class="btn btn--small  btn--dark-orange float-left">Sign Up</a>
-          <span class="search-trigger js-search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
-        </div>
-      </div>
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="<?php echo site_url()?>">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="<?php echo site_url('/politics')?>">Politics</a>
+      <a class="nav-item nav-link" href="<?php echo site_url('/entertainment')?>">Entertainment</a>
+      <a class="nav-item nav-link" href="<?php echo site_url('/sports')?>">Sports</a>
     </div>
-  </header>
+  </div>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
